@@ -43,7 +43,7 @@ jobs:
         run: npm run build
 
       - name: Check the build output
-        run: ls build
+        run: ls dist
 
       - name: Deploy both mikespiegel to github-pages
         uses: JamesIves/github-pages-deploy-action@v4.6.1 # v4.6.1
